@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="final.css">
+    <script src="https://kit.fontawesome.com/847abe8235.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="all"> 
+                <h1><i class="fa-solid fa-list"></i> To Do List</h1> 
+            <div class="title">
+                <button><div class="a">All</div></button>
+                <button>Done</button>
+                <button>Undone</button>
+            </div>
+        </div>
+        <form id="new-task-form">
+            <input type="text"
+                    id="new-task-input"
+                    placeholder="Add a new task" />
+            <input type="submit"
+                    id="new-task-submit"
+                    value="ADD" />
+        </form>
+    </header>
+
+    <main>
+        <section class="task-list">
+            <h2></h2>
+            <div id="tasks">
+                <div class="task">
+                    <div class="before">.</div>
+
+                    <div class="content">
+                        <input type="text"
+                                class="text"
+                                value="Do homework BITC"
+                                readonly />
+                    </div>
+                    <div class="actions">
+                        <button class="delete"><i class="fa-solid fa-trash-can"></i></button>
+                        <button class="edit"><i class="fa-solid fa-pen-to-square"></i></button>
+                    </div>
+                </div>
+
+                <div class="task">
+                    <div class="before">.</div>
+                    <div class="content">
+                        <input type="text"
+                                class="text"
+                                value="Do ASM BTEC"
+                                readonly />
+                    </div>
+                    <div class="actions">
+                        <button class="delete"><i class="fa-solid fa-trash-can"></i></button>
+                        <button class="edit"><i class="fa-solid fa-pen-to-square"></i></button>
+                    </div>
+                </div>
+
+                <div class="task">
+                    <div class="before">.</div>
+                    <div class="content">
+                        <input type="text"
+                                class="text"
+                                value="Participate in IT TOUR"
+                                readonly />
+                    </div>
+                    <div class="actions">
+                        <button class="delete"><i class="fa-solid fa-trash-can"></i></button>
+                        <button class="edit"><i class="fa-solid fa-pen-to-square"></i></button>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <script src="Final.js"></script>
+</body>
+</html>
